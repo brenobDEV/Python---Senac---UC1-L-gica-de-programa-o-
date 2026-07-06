@@ -24,4 +24,4 @@ match numero:
         print(f"Seu resultado é {valor}")
     case _:
         print("Operação não encontrada")
-
+print("teste de commit")
