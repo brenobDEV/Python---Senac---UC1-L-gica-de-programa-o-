@@ -25,3 +25,4 @@ match numero:
     case _:
         print("Operação não encontrada")
 print("teste de commit")
+print("Teste de push pelo vscode")
