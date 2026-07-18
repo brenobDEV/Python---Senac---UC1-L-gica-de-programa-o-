@@ -3,7 +3,12 @@ print("=== HIPERMARKET PYTHON! ===")
 print("")
 while True:
     i1=input(f'Digite o item que quiser adicionar para adicioná-lo a sua lista de compras | Digite "SAIR" para sair ')
-    lista_mercado.append(i1)
+    print("")
+    if i1 in lista_mercado:
+        print("item já cadastrado")
+
+    else:   
+        lista_mercado.append(i1)
     if i1.upper() == "SAIR":
         print("você saiu.")
         break
