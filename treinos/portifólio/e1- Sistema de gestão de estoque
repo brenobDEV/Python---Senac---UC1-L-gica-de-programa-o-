@@ -1,0 +1,29 @@
+print("=== SEU SISTEMA PESSOAL DE GESTÃO ===")
+print("    --- Seja bem vindo(a) ---        ")
+print("_" * 30)
+print()
+#cabeçalho.
+
+#def da lista
+def leitura_lista()
+    for i in leitura_lista():
+        print(i)
+
+
+
+#Criação da lista e dos itens principais.
+lista = []
+x = ("")
+opcao = int(input("O que você deseja fazer? Para [Cadastrar itens digite - 1] para [registrar saída de itens digite - 2] para [Relatório Geral - 3] para [Relatório Geral], Digite SAIR para sair"))
+if opcao == 1:
+    while x.lower() != sair:
+        a = input("O que você deseja cadastrar?")
+        b = input("Qual a quantidade do item no estoque?")
+        c = input("Qual o preço unitário do produto?")
+        print("-" * 50)
+         
+        lista.append(a)
+        
+        print(f"Você ja cadastrou {len(lista)}")
+        leitura_lista()
+        x = input("Se você quiser sair digite 'SAIR', caso queira continuar cadastrando produtos digite qualquer coisa").lower()
