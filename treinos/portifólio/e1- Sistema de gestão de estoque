@@ -80,4 +80,4 @@ while x.lower() != "sair":
                 print(f"Alerta! O produto '{lista[i]}' está com estoque baixo: apenas {quantidades[i]} unidades.")
         print("\nLista completa do estoque:")
         leitura_lista()
-        print("Obrigado por usar o nosso sistema de estoque :)")
+        print("Obrigado por usar o nosso sistema de estoque")
