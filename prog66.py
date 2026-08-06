@@ -1,6 +1,6 @@
 class Passarinho:
     def __init__(self, raca, cor):
-        self.raça = raca
+        self.raca = raca
         self.cor = cor
 
     def canta(self):
